@@ -22,7 +22,7 @@ const Projects = () => {
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <button className="btn btn-warning"><a className="link-style" href="https://fix-tech-3018e.web.app/" target="_blank" >Live Preview</a></button>
+                                <button className="btn btn-warning"><a className="link-style" href="https://fix-tech-3018e.web.app/" target="_blank" >Preview</a></button>
                                 <button className="btn btn-warning ml-2"><a className="link-style" href="https://github.com/Akash-Deb-Nath/fix-tech-client" target="_blank" >Code</a></button>
                             </Card.Footer>
                         </Card>
@@ -38,7 +38,7 @@ const Projects = () => {
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <button className="btn btn-warning"><a className="link-style" href="https://laptop-gallery.web.app/home" target="_blank" >Live Preview</a></button>
+                                <button className="btn btn-warning"><a className="link-style" href="https://laptop-gallery.web.app/home" target="_blank" >Preview</a></button>
                                 <button className="btn btn-warning ml-2"><a className="link-style" href="https://github.com/Akash-Deb-Nath/laptop-gallery-client" target="_blank" >Code</a></button>
                             </Card.Footer>
                         </Card>
@@ -54,7 +54,7 @@ const Projects = () => {
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <button className="btn btn-warning"><a className="link-style" href="https://town-drives.web.app/home" target="_blank" >Live Preview</a></button>
+                                <button className="btn btn-warning"><a className="link-style" href="https://town-drives.web.app/home" target="_blank" >Preview</a></button>
                                 <button className="btn btn-warning ml-2"><a className="link-style" href="https://github.com/Akash-Deb-Nath/town-drives" target="_blank" >Code</a></button>
                             </Card.Footer>
                         </Card>

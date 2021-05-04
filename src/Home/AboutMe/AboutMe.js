@@ -3,8 +3,8 @@ import aboutMe from '../../images/aboutMe.jpg'
 
 const AboutMe = () => {
     return (
-        <div style={{backgroundColor: 'lightslategray'}} className="row py-5">
-            <div style={{fontFamily: 'sans-serif'}} className="col-md-6 px-5 ml-5 mb-5 my-auto">
+        <div style={{backgroundColor: '#2C2E43'}} className="row py-5">
+            <div style={{fontFamily: 'sans-serif'}} className="col-md-6 px-5 ml-5 mb-5 my-auto text-white">
                 <h1 style={{color: 'goldenrod',borderBottom: '3px solid tomato',width: '200px'}} className="mt-5">About me</h1>
                 <div className="pt-5">
                     <p>I am Akash Deb Nath.A front-end developer.I can do any kind of responsive website.</p>
@@ -13,14 +13,14 @@ const AboutMe = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-6">
-                        <p><span style={{color: 'yellow'}}>Name: </span>Akash Deb Nath</p>
-                        <p><span style={{color: 'yellow'}}>Education: </span>B.Sc in EEE</p>
-                        <p><span style={{color: 'yellow'}}>Email: </span>akashdebnath1280@gmail.com</p>
+                        <p><span style={{color: '#f7a440'}}>Name: </span>Akash Deb Nath</p>
+                        <p><span style={{color: '#f7a440'}}>Education: </span>B.Sc in EEE</p>
+                        <p><span style={{color: '#f7a440'}}>Email: </span>akashdebnath1280@gmail.com</p>
                     </div>
                     <div className="col-md-6">
-                        <p><span style={{color: 'yellow'}}>Phone: </span>+8801763333236</p>
-                        <p><span style={{color: 'yellow'}}>Address: </span>Sunamganj,Bangladesh</p>
-                        <p><span style={{color: 'yellow'}}>Hobby: </span>Sleeping</p>
+                        <p><span style={{color: '#f7a440'}}>Phone: </span>+8801763333236</p>
+                        <p><span style={{color: '#f7a440'}}>Address: </span>Sunamganj,Bangladesh</p>
+                        <p><span style={{color: '#f7a440'}}>Hobby: </span>Sleeping</p>
                     </div>
                 </div>
             </div>
