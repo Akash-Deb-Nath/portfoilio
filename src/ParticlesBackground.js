@@ -5,7 +5,7 @@ import particlesConfig from './Config/particlesConfig';
 const ParticlesBackground = () => {
     return (
         <div style={{ backgroundColor: '#6C757D' }}>
-            <Particles height="140vh" width="100vw" params={particlesConfig}></Particles>
+            <Particles height="180vh" width="100vw" params={particlesConfig}></Particles>
         </div>
     );
 };

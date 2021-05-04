@@ -1,3 +1,13 @@
-.card-hover:hover{
+.card{
+    padding: 0;
+    border: 5px solid red;
+    box-shadow: 3px 3px 5px #2C2E43 ;
+    background-color: lightslategrey;
+    box-sizing: border-box;
+}
+.card:hover{
+    padding: 10px;
     background-color: tomato;
+    box-shadow: 10px 10px 20px #2C2E43 ;
+    transition: all 1s;
 }

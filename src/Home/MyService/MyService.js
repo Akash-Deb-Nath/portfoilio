@@ -7,8 +7,8 @@ const MyService = () => {
         <div className="py-5 bg-secondary">
             <h1 style={{ color: 'tomato', borderBottom: '3px solid goldenrod', width: '200px' }} className="mb-5 mx-auto">My Service</h1>
             <div>
-                <div className="mb-3 mx-5">
-                    <Card className="mx-auto text-center card-hover" style={{ width: '30rem' }}>
+                <div className="mb-5">
+                    <Card className="mx-auto text-center card" style={{ width: '22rem' }}>
                         <Card.Body>
                             <Card.Title>Client Satisfaction</Card.Title>
                             <Card.Title className="mx-auto text-center" style={{ borderBottom: '3px solid goldenrod', width: '100px' }}></Card.Title>
@@ -18,9 +18,9 @@ const MyService = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="row mx-5 px-5">
-                    <div className="col-md-4 mb-3">
-                        <Card className="mx-auto text-center card-hover" style={{ width: '20rem' }}>
+                <div className="row px-3">
+                    <div className="col-md-4 mb-5">
+                        <Card className="mx-auto text-center card" style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title>Web Design</Card.Title>
                                 <Card.Title className="mx-auto text-center" style={{ borderBottom: '3px solid goldenrod', width: '100px' }}></Card.Title>
@@ -30,8 +30,8 @@ const MyService = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 mb-3">
-                        <Card className="mx-auto text-center card-hover" style={{ width: '20rem' }}>
+                    <div className="col-md-4 mb-5">
+                        <Card className="mx-auto text-center card" style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title>Pixel Perfect Design</Card.Title>
                                 <Card.Title className="mx-auto text-center" style={{ borderBottom: '3px solid goldenrod', width: '100px' }}></Card.Title>
@@ -41,8 +41,8 @@ const MyService = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 mb-3">
-                        <Card className="mx-auto text-center card-hover" style={{ width: '20rem' }}>
+                    <div className="col-md-4 mb-5">
+                        <Card className="mx-auto text-center card" style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title>Fully Responsive</Card.Title>
                                 <Card.Title className="mx-auto text-center" style={{ borderBottom: '3px solid goldenrod', width: '100px' }}></Card.Title>
@@ -53,8 +53,8 @@ const MyService = () => {
                         </Card>
                     </div>
                 </div>
-                <div className="mb-3 mx-5">
-                    <Card className="mx-auto text-center card-hover" style={{ width: '30rem' }}>
+                <div className="mb-5">
+                    <Card className="mx-auto text-center card" style={{ width: '22rem' }}>
                         <Card.Body>
                             <Card.Title>Web Development</Card.Title>
                             <Card.Title className="mx-auto text-center" style={{ borderBottom: '3px solid goldenrod', width: '100px' }}></Card.Title>

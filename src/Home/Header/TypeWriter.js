@@ -7,8 +7,8 @@ const TypeWriter = () => {
             options={{
                 strings: [
                     "Web Developer",
-                    "JS Developer",
-                    "Content Writter.",
+                    "Front-end Developer",
+                    "Programmer.",
                 ],
                 autoStart: true,
                 loop: true,
