@@ -10,8 +10,9 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div>
-            <div className="App" style={{ position: 'relative', overflow: "hidden" }}>
+        <div style={{maxWidth: '100%',
+        overflowX: 'hidden'}}>
+            <div style={{ position: 'relative', overflow: "hidden" }}>
                 <div style={{ position: 'absolute' }}>
                     <ParticlesBackground></ParticlesBackground>
                 </div>

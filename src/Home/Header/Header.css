@@ -1,14 +1,10 @@
-.App {
-    font-family: sans-serif;
-    font-weight:800;
-    font-size:40px;
-    text-align: center;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
+.btn-style{
+    border: none;
+    border-radius: 5px;
+    background-color: #F35F5F;
+    padding: 5px;
   }
-.link-style{
+.btn-link-style{
     color: rgb(18, 18, 68);
     font-weight: bold;
     font-size: 20px;

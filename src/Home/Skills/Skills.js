@@ -23,11 +23,11 @@ import netlify from '../../images/netlify.png'
 
 const Skills = () => {
     return (
-        <div style={{backgroundColor: '#2C2E43'}} className="row py-5">
-            <h1 style={{borderBottom: '3px solid tomato'}} className="mb-2 mx-auto text-center text-white font-weight-bold">Skills</h1>
-            <div className="col-12">
+        <div style={{backgroundColor: '#2C2E43'}} className="py-5">
+            <h1 style={{borderBottom: '3px solid tomato',width: '100px'}} className="mb-2 mx-auto text-white font-weight-bold">Skills</h1>
+            <div className="mx-auto">
                 <h4 className="mt-5 mb-3 text-center font-weight-bold text-white">Front End</h4>
-                <div className="row d-flex justify-content-center align-items-center text-white">
+                <div data-aos="zoom-in-right" className="d-flex justify-content-center align-items-center text-white">
                     <div className="text-center">
                         <img
                             className="mx-4 my-3"
@@ -121,7 +121,7 @@ const Skills = () => {
                 </div>
 
                 <h4 className="mt-5 mb-3 text-center font-weight-bold text-white">Back End</h4>
-                <div className="row d-flex justify-content-center align-items-center text-white">
+                <div data-aos="zoom-in-left" className="row d-flex justify-content-center align-items-center text-white">
                     <div className="text-center">
                         <img
                             className="mx-4 my-3"
@@ -162,7 +162,7 @@ const Skills = () => {
                 </div>
 
                 <h4 className="mt-5 mb-3 text-center font-weight-bold text-white">Tools</h4>
-                <div className="row d-flex justify-content-center align-items-center text-white">
+                <div data-aos="zoom-in-right" className="d-flex justify-content-center align-items-center text-white">
                     <div className="text-center">
                         <img
                             className="mx-4 my-3"

@@ -21,7 +21,9 @@ const Contact = () => {
 
     return (
         <div>
-            <h1 style={{ color: 'goldenrod', borderBottom: '3px solid tomato', width: '250px' }} className=" pt-5 text-center mx-auto">Contact Me</h1>
+            <div className="row col-md-12">
+                <h1 style={{ color: 'goldenrod', borderBottom: '3px solid tomato', width: '220px' }} className=" pt-5 text-center mx-auto">Contact Me</h1>
+            </div>
             <div className="row">
                 <div className="container col-md-7">
                     <form onSubmit={sendEmail}>
@@ -45,11 +47,12 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="col-md-4 mx-3">
-                    <h1 className="pt-5"><FontAwesomeIcon className="icon active-icon" icon={faMapMarkerAlt} /> Address</h1>
+                    <h1 className="pt-5">Get in Touch</h1>
+                    <h3 className="pt-5"><FontAwesomeIcon className="icon active-icon" icon={faMapMarkerAlt} /> Address</h3>
                     <p>Jamalganj,Sunamganj,Bangladesh</p>
-                    <h1 className="pt-2"><FontAwesomeIcon className="icon active-icon" icon={faEnvelope} /> Email</h1>
-                    <p>akashdebnath1280@gmail.com</p>
-                    <h1 className="pt-2"><FontAwesomeIcon className="icon active-icon" icon={faPhoneAlt} /> Phone</h1>
+                    <h3 className="pt-2"><FontAwesomeIcon className="icon active-icon" icon={faEnvelope} /> Email</h3>
+                    <p>akashdebnath3280@gmail.com</p>
+                    <h3 className="pt-2"><FontAwesomeIcon className="icon active-icon" icon={faPhoneAlt} /> Phone</h3>
                     <p>+8801763333236</p>
                     <ul className="social-media list-inline">
                         <li className="list-inline-item"><a href="https://www.facebook.com/akashdebnath.shawon.1" target="_blank" ><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import './MyService.css'
+import './MyService.css';
 
 const MyService = () => {
     return (
-        <div className="py-5 bg-secondary">
-            <h1 style={{ color: 'tomato', borderBottom: '3px solid goldenrod', width: '200px' }} className="mb-5 mx-auto">My Service</h1>
+        <div style={{ backgroundColor: 'lightslategrey', width: '100%' }} className="py-5">
+            <h1 style={{ borderBottom: '3px solid goldenrod', width: '200px' }} className="mb-5 mx-auto">My Service</h1>
             <div>
-                <div className="mb-5">
+                <div data-aos="zoom-in" className="mb-5">
                     <Card className="mx-auto text-center card" style={{ width: '22rem' }}>
                         <Card.Body>
                             <Card.Title>Client Satisfaction</Card.Title>
@@ -19,7 +19,7 @@ const MyService = () => {
                     </Card>
                 </div>
                 <div className="row px-3">
-                    <div className="col-md-4 mb-5">
+                    <div data-aos="zoom-in-right" className="col-md-4 mb-5">
                         <Card className="mx-auto text-center card" style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title>Web Design</Card.Title>
@@ -30,7 +30,7 @@ const MyService = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 mb-5">
+                    <div data-aos="zoom-in" className="col-md-4 mb-5">
                         <Card className="mx-auto text-center card" style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title>Pixel Perfect Design</Card.Title>
@@ -41,7 +41,7 @@ const MyService = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 mb-5">
+                    <div data-aos="zoom-in-left" className="col-md-4 mb-5">
                         <Card className="mx-auto text-center card" style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title>Fully Responsive</Card.Title>
@@ -53,7 +53,7 @@ const MyService = () => {
                         </Card>
                     </div>
                 </div>
-                <div className="mb-5">
+                <div data-aos="zoom-in" className="mb-5">
                     <Card className="mx-auto text-center card" style={{ width: '22rem' }}>
                         <Card.Body>
                             <Card.Title>Web Development</Card.Title>

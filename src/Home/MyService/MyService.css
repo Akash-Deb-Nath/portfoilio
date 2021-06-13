@@ -1,11 +1,13 @@
 .card{
-    padding: 0;
+    padding: 10px;
     box-shadow: 3px 3px 5px #2C2E43 ;
-    box-sizing: border-box;
+    background-color: #2C2E43;
+    color: lightgray;
 }
 .card:hover{
     padding: 10px;
     background-color: tomato;
     box-shadow: 10px 10px 20px #2C2E43 ;
+    color: black;
     transition: all 1s;
 }

@@ -26,7 +26,7 @@ const particlesConfig ={
         }
       },
       opacity: {
-        value: 0.3,
+        value: 1,
         random: true,
         anim: {
           enable: false,
