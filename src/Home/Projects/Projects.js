@@ -7,7 +7,8 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <div className="py-5" style={{ backgroundColor: 'lightslategrey' }}>
+        <div className="py-5" style={{ backgroundColor: 'lightslategrey', maxWidth: '100%',
+        overflowX: 'hidden' }}>
             <h1 style={{ color: '#2C2E43', borderBottom: '3px solid goldenrod', width: '220px' }} className="mb-5 mx-auto">My Projects</h1>
             <div>
                 <div className="row px-3">

@@ -51,7 +51,7 @@ const Contact = () => {
                     <h3 className="pt-5"><FontAwesomeIcon className="icon active-icon" icon={faMapMarkerAlt} /> Address</h3>
                     <p>Jamalganj,Sunamganj,Bangladesh</p>
                     <h3 className="pt-2"><FontAwesomeIcon className="icon active-icon" icon={faEnvelope} /> Email</h3>
-                    <p>akashdebnath3280@gmail.com</p>
+                    <p>akash.dns12345@gmail.com</p>
                     <h3 className="pt-2"><FontAwesomeIcon className="icon active-icon" icon={faPhoneAlt} /> Phone</h3>
                     <p>+8801763333236</p>
                     <ul className="social-media list-inline">
