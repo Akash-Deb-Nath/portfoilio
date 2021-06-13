@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 import './MyService.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faLaptopCode, faSmile } from '@fortawesome/free-solid-svg-icons'
-import { faEye } from '@fortawesome/free-regular-svg-icons';
+import { faEye, faMobile } from '@fortawesome/free-regular-svg-icons';
 
 const MyService = () => {
     return (
@@ -51,7 +51,7 @@ const MyService = () => {
                     <div data-aos="zoom-in-left" className="col-md-4 mb-5">
                         <Card className="mx-auto text-center card" style={{ width: '80%', height: '180px' }}>
                             <Card.Body>
-                                <FontAwesomeIcon style={{ width: '30px', height: '30px' }} className="icon active-icon" icon={faEye} />
+                                <FontAwesomeIcon style={{ width: '30px', height: '30px' }} className="icon active-icon" icon={faMobile} />
                                 <Card.Title>Fully Responsive</Card.Title>
                                 <Card.Title className="mx-auto text-center" style={{ borderBottom: '3px solid goldenrod', width: '100px' }}></Card.Title>
                                 <Card.Text>
