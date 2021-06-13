@@ -2,8 +2,8 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import './MyService.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faLaptopCode, faSmile } from '@fortawesome/free-solid-svg-icons'
-import { faEye, faMobile } from '@fortawesome/free-regular-svg-icons';
+import { faCode, faLaptopCode, faSmile, faMobile } from '@fortawesome/free-solid-svg-icons'
+import { faEye } from '@fortawesome/free-regular-svg-icons';
 
 const MyService = () => {
     return (
