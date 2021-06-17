@@ -27,8 +27,8 @@ const Skills = () => {
             <h1 style={{borderBottom: '3px solid tomato',width: '100px'}} className="mb-2 mx-auto text-white font-weight-bold">Skills</h1>
             <div className="mx-auto">
                 <h4 className="mt-5 mb-3 text-center font-weight-bold text-white">Front End</h4>
-                <div data-aos="zoom-in-right" className="d-flex justify-content-center align-items-center text-white">
-                    <div className="text-center">
+                <div className="row mx-auto text-white px-5">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "40px" }}
@@ -37,7 +37,7 @@ const Skills = () => {
                         />
                         <figcaption>React</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "40px" }}
@@ -46,7 +46,7 @@ const Skills = () => {
                         />
                         <figcaption>Redux</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "35px", paddingTop: "8px" }}
@@ -55,7 +55,7 @@ const Skills = () => {
                         />
                         <figcaption>JavaScript</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "57px" }}
@@ -64,7 +64,7 @@ const Skills = () => {
                         />
                         <figcaption>Bootstrap</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "114px" }}
@@ -73,7 +73,7 @@ const Skills = () => {
                         />
                         <figcaption>React-Bootstrap</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "40px", paddingTop: "15px" }}
@@ -82,7 +82,7 @@ const Skills = () => {
                         />
                         <figcaption>Material UI</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "45px", paddingTop: "10px" }}
@@ -91,7 +91,7 @@ const Skills = () => {
                         />
                         <figcaption>Sass</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "33px" }}
@@ -100,7 +100,7 @@ const Skills = () => {
                         />
                         <figcaption>Firebase</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "40px" }}
@@ -109,7 +109,7 @@ const Skills = () => {
                         />
                         <figcaption>HTML</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "36px" }}
@@ -121,8 +121,8 @@ const Skills = () => {
                 </div>
 
                 <h4 className="mt-5 mb-3 text-center font-weight-bold text-white">Back End</h4>
-                <div data-aos="zoom-in-left" className="row d-flex justify-content-center align-items-center text-white">
-                    <div className="text-center">
+                <div className="row text-white px-5">
+                    <div data-aos="zoom-in-left" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "36px" }}
@@ -131,7 +131,7 @@ const Skills = () => {
                         />
                         <figcaption>Node.js</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-left" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "40px" }}
@@ -140,7 +140,7 @@ const Skills = () => {
                         />
                         <figcaption>Express.js</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-left" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "45px" }}
@@ -150,7 +150,7 @@ const Skills = () => {
                         <figcaption>MongoDB</figcaption>
                     </div>
 
-                    <div className="text-center">
+                    <div data-aos="zoom-in-left" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "40px" }}
@@ -162,8 +162,8 @@ const Skills = () => {
                 </div>
 
                 <h4 className="mt-5 mb-3 text-center font-weight-bold text-white">Tools</h4>
-                <div data-aos="zoom-in-right" className="d-flex justify-content-center align-items-center text-white">
-                    <div className="text-center">
+                <div className="row text-white px-5">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "40px" }}
@@ -172,7 +172,7 @@ const Skills = () => {
                         />
                         <figcaption>Visual Studio Code</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "43px" }}
@@ -181,7 +181,7 @@ const Skills = () => {
                         />
                         <figcaption>Git</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "40px" }}
@@ -190,7 +190,7 @@ const Skills = () => {
                         />
                         <figcaption>GitHub</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "38px" }}
@@ -199,7 +199,7 @@ const Skills = () => {
                         />
                         <figcaption>Netlify</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "75px", paddingTop: "10px" }}
@@ -208,7 +208,7 @@ const Skills = () => {
                         />
                         <figcaption>npm</figcaption>
                     </div>
-                    <div className="text-center">
+                    <div data-aos="zoom-in-right" className="text-center col">
                         <img
                             className="mx-4 my-3"
                             style={{ width: "40px" }}

@@ -15,6 +15,7 @@ import MyService from "./Home/MyService/MyService";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Skills from "./Home/Skills/Skills";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         </Route>
         <Route path="/aboutMe">
           <AboutMe></AboutMe>
+          <Skills></Skills>
         </Route>
         <Route path="/projects">
           <Projects></Projects>
